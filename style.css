@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap');
+/* 스타일링 */
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.photo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:10px;
+    background-color: gainsboro;
+    height:100vh;
+  }
+  .photo-list img {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .photo-list img.selected {
+    border: 2px solid blue;
+  }
+  .photo-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  .photo-container img {
+    max-width: 80vw;
+    max-height: 90vh;
+  }
+  li {
+    padding: 5px;
+    list-style: none;
+  }

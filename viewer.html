@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>사진 목록</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="dir-button">
+        경로를 선택해주세요.<br>
+        탐색을 원하는 폴더의 상위 폴더에 문서가 위치해야합니다.
+        <input type="file" id="directory_upload" webkitdirectory>
+    </div>
+    <div class="layout">
+        <div class="photo-list"></div>
+
+        <div class="photo-container">
+        <img src="" id="selected-photo" />
+        </div>
+    </div>
+    <script src="directory_upload.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+  </body>
+</html>
